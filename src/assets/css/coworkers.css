@@ -1,0 +1,40 @@
+.choose{
+    width: 1512px;
+    height: 1366px;
+    background: white;
+}
+.copy-choose{
+    width: 1512px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vaga-one{
+    width: 434px;
+    height: 482px;
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 14px;
+    background: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-vaga{
+    width: 391.5px;
+    height: 261px;
+}
+.all{
+    width: 235px;
+    height: 62px;
+    margin-top: 45px;
+    margin-left: 635px;
+    padding: 20px 26px 20px 34px;
+    border-radius: 14px;
+    gap: 10px;
+    background: #12724F;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: white;
+}

@@ -1,0 +1,234 @@
+.feed-box{
+    width: 1512px;
+    height: 1465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.feed-head{
+    width: 500px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0;
+    text-align: center;
+    color: rgba(18, 114, 79, 1);
+}
+.feed-copy{
+    width: 1512px;
+    display: flex;
+    justify-content: space-between;
+}
+.feed-one{
+    width: 720px;
+    height: 1100px;
+    position: relative;
+}
+.feed-two{
+    width: 720px;
+    height: 1100px;
+    position: relative;
+}
+.feed-r{
+    width: 647px;
+    height: 363px;
+    top: 770px;
+    left: 81px;
+    border-radius: 14px;
+    position: absolute;
+    z-index: 9;
+}
+.feed-c{
+    width: 310.0756518206719px;
+    height: 310.0756518206719px;
+    top: 965px;
+    left: 0;
+    position: absolute;
+}
+.feed-text{
+    width: 629px;
+    height: 304px;
+    top: 130px;
+    left: 89px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+}
+.feed-one-text{
+    width: 629px;
+    height: 304px;
+    top: 820px;
+    left: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+}
+.feed-r-two{
+    width: 628px;
+    height: 363px;
+    top: 70px;
+    border-radius: 14px;
+    position: absolute;
+    z-index: 9;
+}
+.feed-c-two{
+    width: 366px;
+    height: 366px;
+    top: 240px;
+    left: 382px;
+    position: absolute;
+}
+.feed-head{
+    width: 593px;
+    height: 96px;
+    left: 87px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+}
+.feed-click{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 199px;
+    height: 62px;
+    top: 442px;
+    left: 88px;
+    padding: 20px 16px 20px 22px;
+    border-radius: 14px;
+    gap: 10px;
+    color: white;
+    background: #12724F;
+    position: absolute;
+}
+.feed-click-two{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 199px;
+    height: 62px;
+    top: 1100px;
+    padding: 20px 16px 20px 22px;
+    border-radius: 14px;
+    gap: 10px;
+    color: white;
+    background: #12724F;
+    position: absolute;
+}
+.feed-head-one{
+    width: 593px;
+    height: 48px;
+    top: 750px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #12724F;
+}
+.feedWrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.feedWrapper .feed-content {
+    width: 1136px;
+    height: 872px;
+    top: 33px;
+    border-radius: 20px;
+    background: white;
+    position: relative;
+}
+.feed-end-text{
+    width: 596px;
+    height: 77px;
+    top: 95px;
+    left: 278px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+    color: rgba(18, 114, 79, 1);
+}
+.input-feed-text{
+    width: 401px;
+    height: 95px;
+    top: 228px;
+    left: 151px;
+    border-radius: 14px;
+    padding: 20px;
+    background: rgba(217, 217, 217, 0.851);
+    position: absolute;
+}
+.input-feed-mail{
+    width: 401px;
+    height: 95px;
+    top: 228px;
+    left: 576px;
+    border-radius: 14px;
+    padding: 20px;
+    background: rgba(217, 217, 217, 0.851);
+    position: absolute;
+}
+.input-feed-number{
+    width: 826px;
+    height: 95px;
+    top: 353px;
+    left: 151px;
+    border-radius: 14px;
+    padding: 20px;
+    background: rgba(217, 217, 217, 0.851);
+    position: absolute;
+}
+.input-feed-textarea{
+    width: 826px;
+    height: 261px;
+    top: 479px;
+    left: 151px;
+    border-radius: 14px;
+    padding: 20px;
+    background: rgba(217, 217, 217, 0.851);
+    position: absolute;
+}
+.feed-send{
+    width: 235px;
+    height: 62px;
+    top: 787px;
+    left: 450px;
+    padding: 21px 74px 21px 67px;
+    border-radius: 14px;
+    gap: 10px;
+    background: rgba(18, 114, 79, 1);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+}

@@ -1,0 +1,58 @@
+.page-box{
+    width: 1512px;
+    height: 700px;
+    position: relative;
+}
+.page-img{
+    width: 544.9999389648438px;
+    height: 407.193603515625px;
+    top: 87.806396484375px;
+    left: 80px;
+    position: absolute;
+}
+.page-head{
+    width: 345px;
+    height: 31px;
+    top: 86px;
+    left: 772px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+    color: #12724F;
+}
+.page-text{
+    width: 599px;
+    height: 266px;
+    top: 229px;
+    left: 772px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+}
+.page-one{
+    width: 123px;
+    height: 35px;
+    top: 158px;
+    left: 772px;
+    position: absolute;
+}
+.page-two{
+    width: 123px;
+    height: 35px;
+    top: 158px;
+    left: 915px;
+    position: absolute;
+}
+.page-three{
+    width: 123px;
+    height: 35px;
+    top: 158px;
+    left: 1058px;
+    position: absolute;
+}
